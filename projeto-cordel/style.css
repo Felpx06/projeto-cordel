@@ -1,0 +1,61 @@
+body{
+    margin: 0%;
+    background-color: antiquewhite;
+}
+
+header{
+    background-color: black;
+    box-shadow: 0px 5px 20px 3px black;
+    padding: 20px;
+    font-size: 23px;
+}
+
+header > h1{
+    color: white;
+    text-align: center;
+}
+
+header > p{
+    color: white;
+    text-align: center;
+
+    margin-top: -12px;
+}
+
+header > p > strong > a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    width: 1000px;
+    margin: auto;
+    box-shadow: 0px -100px 30px -5px black;
+
+}
+
+.imagem{
+    color: white;
+    font-size:28px;
+    padding: 40px;
+    height: 400px;
+    box-shadow: inset 6px 6px 12px 0px black;
+}
+
+.texto{
+    font-size: 25px;
+    padding: 40px;
+    background-color: white;
+}
+
+#img1{
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-position: center right;
+}
+
+#img2{
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-position: bottom left;
+}
